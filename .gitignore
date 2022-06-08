@@ -1,0 +1,12 @@
+.idea
+
+__pycache__
+*.pyc
+
+.tox
+venv
+build
+dist
+*.egg-info
+
+main.spec
