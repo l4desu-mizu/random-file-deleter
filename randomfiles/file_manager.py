@@ -43,7 +43,7 @@ class Deletable:
 
 class FileManager:
 
-    def __init__(self, path: Union[Path | str]):
+    def __init__(self, path: Union[Path, str]):
         self._path = Path(path)
         self._deleted_files: Set[Path] = set()
         self._undeletable_files: Set[Path] = set()
