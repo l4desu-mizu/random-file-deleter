@@ -7,6 +7,7 @@ from randomfiles.ui import Main
 
 def main():
     tk = Tk()
+    tk.resizable(False, False)
     selected_dir = filedialog.askdirectory(parent=tk)
     if selected_dir:
         fm = FileManager(pathlib.Path(selected_dir))
